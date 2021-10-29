@@ -11,7 +11,7 @@ namespace Location.Model
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Server=94.73.150.5;Database=u7402684_akboru;Trusted_Connection=False;User ID=u7402684_akboru;Password=AKboru_2021_erp");
+            optionsBuilder.UseSqlServer(@"");
         }
         public DbSet<Country> Country { get; set; }
         public DbSet<City> City { get; set; }
